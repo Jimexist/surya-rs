@@ -16,7 +16,7 @@ clap = { version = "4.4.18", features = ["derive"], optional = true }
 env_logger = { version = "0.11.0" }
 hf-hub = { version = "0.3.2" }
 log = { version = "0.4.20" }
-opencv = { version = "0.91.2", default-features = false, features = [
+opencv = { version = "0.92.0", default-features = false, features = [
   'imgproc',
   'imgcodecs',
 ] }
